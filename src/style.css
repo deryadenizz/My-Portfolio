@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 
 h3 {
@@ -29,9 +30,19 @@ h3 {
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.9;
+  padding: 10px;
 }
-
+.rounded {
+  width: 550px;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+.link {
+  margin: 0 auto;
+  width: 30%;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
