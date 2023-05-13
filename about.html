@@ -42,6 +42,12 @@
         font-size: 24px;
         opacity: 0.7;
       }
+      .rounded {
+        width: 500px;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
@@ -116,17 +122,23 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/adoption.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/adoption.png"
+            alt="Adoption App"
+            class="img-fluid p-2 shadow rounded"
+          />
         </div>
         <div class="col-sm-4">
           <img
             src="images/weather-app.png"
+            alt="Weather App"
             class="img-fluid p-2 shadow rounded"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="images/world-clock-app.png"
+            alt="World Clock App"
             class="img-fluid p-2 shadow rounded"
           />
         </div>
@@ -134,9 +146,16 @@
     </div>
     <div id="contact" class="mt-5">
       <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:derya.anaral@gmail.com" class="email-link">
-        derya.anaral@gmail.com
-      </a>
+      <p class="text-center">
+        I'd love to hear from you! Feel free to reach out to me with any
+        inquiries or collaboration opportunities.
+      </p>
+      <p class="text-center">You can contact me via email:</p>
+      <p class="text-center">
+        <a href="mailto:derya.anaral@gmail.com" class="email-link"
+          >derya.anaral@gmail.com</a
+        >
+      </p>
     </div>
   </body>
 </html>

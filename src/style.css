@@ -39,10 +39,7 @@ p {
   max-height: 500px;
   object-fit: cover;
 }
-.link {
-  margin: 0 auto;
-  width: 30%;
-}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
