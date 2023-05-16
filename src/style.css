@@ -23,9 +23,7 @@ body {
 .navbar-brand:hover {
   color: var(--fifth-color);
 }
-.navbar-toggler-icon-bg {
-  background-color: #8a612c;
-}
+
 h1,
 h2,
 h3 {
