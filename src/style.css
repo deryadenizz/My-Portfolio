@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #d97059;
+  --primary-color: rgb(217, 112, 89);
   --secondary-color: #d99b77;
   --third-color: #f2d4ae;
   --forth-color: #f2aa52;
@@ -54,7 +54,15 @@ p {
   padding: 10px;
   text-align: justify;
 }
-
+footer {
+  text-align: center;
+}
+.fa-instagram,
+.fa-linkedin,
+.fa-github {
+  font-size: 33px;
+  padding: 45px;
+}
 .rounded {
   width: 550px;
   height: auto;
