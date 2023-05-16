@@ -37,7 +37,9 @@
       h3 {
         margin: 10;
       }
-
+      h2:first-child {
+        margin-top: 10%;
+      }
       h1 {
         font-size: 96px;
         margin-top: 45px;
@@ -47,17 +49,30 @@
         font-size: 24px;
         opacity: 0.7;
       }
-      .rounded {
+
+      .rounded,
+      .profile-pic {
         width: 500px;
         height: auto;
         max-height: 400px;
         object-fit: cover;
       }
+
       .about-paragraphs {
         width: 53%;
         margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 30px;
+      }
+      @media screen and (max-width: 600px) {
+        .profile-pic {
+          display: none;
+        }
+        .about-paragraphs {
+          margin-left: 0px;
+          margin-right: 0px;
+          width: fit-content;
+        }
       }
     </style>
   </head>
@@ -100,40 +115,73 @@
     <h1 class="text-center">About me</h1>
     <h3 class="text-center">Front-end developer from Europe/Netherlands</h3>
     <div class="about-paragraphs">
-      <p>
-        Hey there, lovely people! Allow me to introduce myself—I'm Derya Deniz,
-        your friendly neighborhood coder and art enthusiast.
-      </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="images/derya.jpeg"
+            class="img-fluid p-2 profile-pic"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-8">
+          <h2>Hey there, lovely people!</h2>
+          <p>
+            Allow me to introduce myself—I'm Derya Deniz, your friendly
+            neighborhood coder and art enthusiast. I graduated from Boğaziçi
+            University in 2019 with a degree in teaching mathematics. Although
+            my path eventually led me to coding, my educational background has
+            instilled in me a logical and analytical mindset that I bring to my
+            development projects.
+          </p>
+        </div>
+      </div>
+      <h2>A Journey of Creativity and Code 🎨🖥️</h2>
 
       <p>
-        At the age of 28, I've embarked on an exciting journey to blend my love
-        for coding with my passion for creativity. 🎨🖥️ When I'm not immersed in
-        lines of code, you can find me surrounded by a delightful bunch of 15
-        cats. 🐱❤️
+        At the age of 28, I embarked on an exciting journey to blend my love for
+        coding with my passion for creativity. When I'm not immersed in lines of
+        code, you can find me surrounded by a delightful bunch of 15 cats. Their
+        playful antics provide endless inspiration and joy. 🐱❤️
       </p>
-
+      <h2>The Canvas of Artistic Expression 🎨✨</h2>
       <p>
         Art has always held a special place in my heart, and I've had the
         incredible opportunity to showcase my work in both group and personal
         exhibitions. In 2018, my art graced the walls of a captivating
-        exhibition in Turkey, and in 2020, I had the honor of sharing my
-        creativity in a personal exhibition in the land of the rising sun,
-        Japan! 🌟✨🎉
+        exhibition in Turkey, where I had the pleasure of connecting with fellow
+        artists and art enthusiasts. Then, in 2020, I embarked on an
+        unforgettable journey to Japan, where I shared my creativity in a
+        personal exhibition. The experience was truly magical and allowed me to
+        immerse myself in the rich culture and vibrant art scene. 🌟✨🎉
       </p>
-
+      <h2>From Teaching to Frontend Development 👩‍🏫🚀</h2>
       <p>
-        As destiny would have it, my husband and I recently embarked on a new
-        adventure in the Netherlands. Although I couldn't continue my teaching
-        journey here, I found solace in coding and decided to take up front-end
-        development. 🚀🌈 Joining SheCodes was a game-changer—I've already
-        earned two certifications and crafted some awesome projects!
+        Prior to my adventures in coding, I had a fulfilling career in teaching
+        mathematics. In 2019, I embarked on an exciting teaching journey,
+        sharing the wonders of mathematics with enthusiastic students. While I
+        cherished the opportunity to make a positive impact on their lives, I
+        couldn't ignore my deep-rooted love for coding and design. It was in
+        2014, during a computer class, that the HTML/CSS magic first sparked
+        within me. I knew then that I had found my true calling.
       </p>
-
+      <h2>Embracing SheCodes and Beyond 🌈🌍🎓</h2>
       <p>
-        While I dabbled in coding before, it's here that I'm truly embracing the
-        world of front-end wizardry. I'm thrilled to learn, grow, and connect
-        with the vibrant tech community! Let's create some magic together!
-        ✨🌟💻
+        As destiny would have it, my journey recently led me to the beautiful
+        Netherlands, where I continue to explore new horizons. Joining SheCodes
+        was a game-changer—I've already earned certifications and crafted some
+        awesome projects! With each milestone, I've been able to expand my
+        skills and embrace the world of frontend wizardry. But it's not just
+        about the certificates and projects—it's about the thrill of learning,
+        growing, and connecting with the vibrant tech community.
+      </p>
+      <h2>Let's Create Magic Together! ✨🌟💻</h2>
+      <p>
+        I'm thrilled to be on this journey of creativity and code, and I'm
+        excited to collaborate with like-minded individuals and create
+        extraordinary experiences. Whether it's building user-friendly websites
+        or crafting visually stunning interfaces, I'm always up for the
+        challenge. So let's connect and bring our ideas to life! Together, we
+        can create magic in the digital realm. 💫✨💻
       </p>
     </div>
     <div class="container">
