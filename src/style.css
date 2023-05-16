@@ -61,7 +61,10 @@ footer {
 .fa-linkedin,
 .fa-github {
   font-size: 33px;
-  padding: 45px;
+  margin: 45px;
+  padding: 10px;
+  border-radius: 35px;
+  background-color: #f9ecdb;
 }
 .rounded {
   width: 550px;
