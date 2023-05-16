@@ -23,7 +23,9 @@ body {
 .navbar-brand:hover {
   color: var(--fifth-color);
 }
-
+.navbar-toggler-icon-bg {
+  background-color: #8a612c;
+}
 h1,
 h2,
 h3 {
@@ -54,6 +56,7 @@ p {
   padding: 10px;
   text-align: justify;
 }
+
 .rounded {
   width: 550px;
   height: auto;
@@ -86,8 +89,10 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  background: #fcf8f2;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .homepage-link {
