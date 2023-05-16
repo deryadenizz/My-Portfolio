@@ -52,6 +52,7 @@ p {
   font-size: 18px;
   line-height: 1.9;
   padding: 10px;
+  text-align: justify;
 }
 .rounded {
   width: 550px;
