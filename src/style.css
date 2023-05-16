@@ -19,6 +19,10 @@ body {
 .navbar-brand {
   color: var(--primary-color);
 }
+.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--fifth-color);
+}
 
 h1,
 h2,
